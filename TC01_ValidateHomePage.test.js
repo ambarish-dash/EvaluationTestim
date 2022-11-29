@@ -7,43 +7,43 @@ Locator.set(require('./locators/locators.js'));
 test("TC01_ValidateHomePage", async () => {
   await go("https://acme-test.uipath.com/login");
   await resize({width: 1920, height: 1080});
-  if (await exists(l("[onclick='event.preventDefault();_d"), {forceVisibility: true})) {
-    await click(l("Log_Out"));
+  if (await exists(l("uTxK8v328MAPtKKU"), {forceVisibility: true})) {
+    await click(l("NzA5mV9QHef33wcQ"));
   }
-  await click(l("Email:"));
-  await type(l("Email:"), acmeEmail);
-  await click(l("Password:"));
-  await type(l("Password:"), acmePassword);
-  await click(l("Login"));
-  await waitForElement(l("Dashboard"));
+  await click(l("m3ntfE7B7b5FrO9x"));
+  await type(l("m3ntfE7B7b5FrO9x"), acmeEmail);
+  await click(l("7xHZvWsIBWrh7ASE"));
+  await type(l("7xHZvWsIBWrh7ASE"), acmePassword);
+  await click(l("CncK9mTzIgSqhDZJ"));
+  await waitForElement(l("tPGQKmg3eIs87chL"));
   //TODO Please add an assertion here
-await exists(l("User_options"));
+await exists(l("j7ooTpJJKxdziGa8"));
   //TODO Please add an assertion here
-await exists(l("Work_Items"));
+await exists(l("T7XVIUpLp9hokBy2"));
   //TODO Please add an assertion here
-await exists(l("Accounts"));
-  await scrollToElement(l("[onclick='event.preventDefault();_d"));
+await exists(l("p5YuIhAWqoCowT8h"));
+  await scrollToElement(l("uTxK8v328MAPtKKU"));
   //TODO Please add an assertion here
-await exists(l("Checks"));
+await exists(l("05QDAzKukrFhaBoG"));
   //TODO Please add an assertion here
 await exists(l("Vendors"));
   //TODO Please add an assertion here
-await exists(l("Invoices"));
-  await scrollToElement(l("[onclick='event.preventDefault();_d"));
+await exists(l("OjPU1kBxgWkkpkeh"));
+  await scrollToElement(l("uTxK8v328MAPtKKU"));
   //TODO Please add an assertion here
-await exists(l("Internal_Invoices"));
+await exists(l("4yu6kWksKIx57lNz"));
   //TODO Please add an assertion here
-await exists(l("Reports"));
+await exists(l("BsKC4ILzwdwJf9zc"));
   //TODO Please add an assertion here
-await exists(l("Students"));
-  await scrollToElement(l("[onclick='event.preventDefault();_d"));
+await exists(l("Xnb54sn2H6iu7pZH"));
+  await scrollToElement(l("uTxK8v328MAPtKKU"));
   //TODO Please add an assertion here
-await exists(l("Health_Care"));
+await exists(l("xnJrS7qi7bpevQ2P"));
   //TODO Please add an assertion here
-await exists(l("Employees"));
+await exists(l("D2wRFJIGnWqvE3wN"));
   //TODO Please add an assertion here
-await exists(l("Bank"));
-  await scrollToElement(l("[onclick='event.preventDefault();_d"));
+await exists(l("1LFHhOpEQThBHX7W"));
+  await scrollToElement(l("uTxK8v328MAPtKKU"));
   //TODO Please add an assertion here
-await exists(l("Customer_Service"));
+await exists(l("luUcLsNu2oV1D3SB"));
 });
