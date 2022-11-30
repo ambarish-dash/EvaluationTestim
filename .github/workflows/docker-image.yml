@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Run test in testim
-      run: docker run testim/docker-cli --token "k96WmRtVnO2tQL3DzBpETWlT9CtATfLdVpPxqsPWgcItIX60tI"  --project "sVFVz4Wvezd6ayvGkBDD" --grid "Testim-Grid" -r /opt/testim-runner/testim-sanity-12-report.xml 
+      run: docker run 5035/testimdemo1 --token "k96WmRtVnO2tQL3DzBpETWlT9CtATfLdVpPxqsPWgcItIX60tI"  --project "sVFVz4Wvezd6ayvGkBDD" --grid "Testim-Grid" -r /opt/testim-runner/testim-sanity-12-report.xml 
